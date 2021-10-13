@@ -68,7 +68,7 @@ console.log(emailUtente);
 //funzione di reset dei dati 
 reset.addEventListener("click", function () {
 
-    
+    emailInserita.value="";
     esito.textContent="";
     esito.style.color="black"
     esito.style.borderColor="grey"

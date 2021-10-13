@@ -43,7 +43,7 @@
 table{text-align: left;}
 
 .esito{ background-color: white;
-        min-width: 200px;
-        padding: 10px 10px;
+        min-width: 300px;
+        height: 20px;
         color: black;
         border:3px solid grey;}
