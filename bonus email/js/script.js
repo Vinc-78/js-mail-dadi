@@ -12,7 +12,7 @@ const messOK ="Trovata email, accesso consentito"
 
 const messKO ="Email non trovata, accesso non consentito"
 
-
+btn.addEventListener("click", function () {
 
 // creo l'arrey con le email
 
@@ -21,15 +21,14 @@ const arrayEmail = ["alfa.beta@gmail.it", "CarloMagno@libero.it", "marco.Polo@em
 //prelevo il valore inserito in email
 let emailUtente = emailInserita.value;
 
+
+console.log(emailUtente);
+
 emailUtente = emailUtente.toLocaleLowerCase();
 
+console.log(emailUtente);
 
-//inizio la funzione di verifica
-
-btn.addEventListener("click", function () {
-
-
-   let trovataEmail = false;
+    let trovataEmail = false;
 
 
 
@@ -66,8 +65,7 @@ btn.addEventListener("click", function () {
 
 });
 
-//funzione di reset
-
+//funzione di reset dei dati 
 reset.addEventListener("click", function () {
 
     
