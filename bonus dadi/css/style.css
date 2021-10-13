@@ -1,0 +1,68 @@
+* {margin:0;
+   padding: 0;
+   box-sizing: border-box;}
+
+
+.shell {background-color: lightslategray;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+       }
+
+.shell h1{ color:rgba(179, 38, 38, 0.8);
+            
+            font-size: 50px;
+            padding-bottom: 30px;}
+
+
+.row {display: flex;}
+
+
+.dado { width: 150px;
+        height: 150px;
+        border: 3px solid black;
+        text-align: center;
+        font-size: 75px;
+        color: black;
+        line-height: 9rem;
+        background-color: white;
+        box-shadow: 10px 10px 10px black;
+    }
+
+        
+
+.display h2 { font-size: 30px;
+              text-shadow: 5px 2px 3px #fffffe;}
+
+.area-gioco {justify-content: space-evenly;}
+
+.area-pulsante { display:block}
+
+.area-pulsante button { padding: 10px;
+                        border: 2px solid blue;
+                        border-radius: 25px;
+                        color:blue;
+                        font-size: 30px;
+                        font-weight: bold;}
+
+.area-pulsante p {font-size: larger;
+                  color: blanchedalmond;}
+
+.esito-gioco { display: flex;
+               flex-direction: column;
+               align-items: center;}
+
+
+.esito-gioco h1 { color:chartreuse;
+                 font-size: 50px;
+                 padding: 25px 0;}
+
+.esito { width: 400px;
+         height: 50px;
+         background-color: white;
+         color:black;
+         font-size: 40px;
+         line-height: 50px;}
+
+        
